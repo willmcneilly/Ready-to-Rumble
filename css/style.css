@@ -1,0 +1,311 @@
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+body {
+	font-family: georgia, times new roman, serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-weight: normal;
+}
+
+a {
+	color: rgba(255, 40, 0, 0.7);
+}
+
+a:hover {
+	color: rgba(255, 40, 0, 0.9);
+}
+
+/*
+
+--------------------------------------------------------------------------
+	Section Styling
+--------------------------------------------------------------------------
+		
+																		*/
+
+div.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+div.container section, div.container header {
+	width: 740px;
+	margin: 0 auto;
+}
+	
+div.light {
+	background-color: #efe4d3;
+	background-image: url(../images/light-background.gif);
+	background-repeat: repeat;
+	color: rgba(0,0,0, 0.7);
+}
+
+div.dark{
+	background-color: #2f2d2a;
+	background-image: url(../images/dark-background.gif);
+	background-repeat: repeat;
+	color: #ece1d0;
+}
+
+
+/*
+
+--------------------------------------------------------------------------
+	Header Styling
+--------------------------------------------------------------------------
+		
+																		*/
+header#global-header {
+	padding-top: 72px;
+}
+																	
+p.tagline {
+	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-size: 32px;
+	line-height: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	border-top: 3px solid rgba(0,0,0, 0.7);
+	border-bottom: 3px solid rgba(0,0,0, 0.7);
+	letter-spacing: 12px;
+	color: rgba(255, 40, 0, 0.7);
+	padding:8px 0 5px;
+	margin-bottom: 12px;
+}
+
+#global-header h1 {
+	font-size: 164px;
+	text-transform: uppercase;
+	line-height: 164px;
+	text-align: center;
+	color: rgba(0,0,0, 0.7);
+	letter-spacing: -5px;
+}
+
+#global-header h2 {
+	background-color:rgba(0, 0, 0, 0.7);
+	color:#ECE1D0;
+	font-size:32px;
+	letter-spacing:0;
+	line-height:32px;
+	padding:13px 0 8px;
+	text-align:center;
+	text-transform:uppercase;
+	-moz-border-radius-bottomleft: 64px;
+	-moz-border-radius-bottomright:64px;
+	-webkit-border-bottom-right-radius:64px;
+	-webkit-border-bottom-left-radius:64px;
+	border-bottom-left-radius:64px;
+	border-bottom-right-radius:64px;
+	
+}
+
+#global-header h2 .star {
+	font-size:26px;
+	padding: 0 18px;
+	position:relative;
+	top:-3px;
+}
+
+p.match {
+	overflow: hidden;
+	margin: 48px 0;
+}
+
+span.boxer1, span.boxer2, em.vs {
+	display: block;
+	float: left;
+}
+
+span.boxer1 {
+	margin-left: 72px;
+} 
+span.boxer2 {
+	float:right;
+	text-align: right;
+	margin-right: 72px;}
+
+span.boxer1, span.boxer2 {
+	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-size: 74px;
+	text-transform: uppercase;
+	line-height: 56px;
+	width:262px;
+}
+
+span.boxer1 em, span.boxer2 em {
+	font-size: 42px;
+	font-style: normal;
+	color: rgba(255, 40, 0, 0.7);
+	line-height: 48px;
+}
+
+span.forename {
+	position: relative;
+	bottom: -15px;
+}
+
+span.surname {
+	position: relative;
+	top: 0px;
+}
+
+em.vs {
+	font-size: 34px;
+	text-align: center;
+	font-style: italic;
+	width: 72px;
+	height:72px;
+	line-height: 72px;
+	background-color: rgba(255, 40, 0, 0.7);
+	-moz-border-radius: 36px;
+	-webkit-border-radius: 36px;
+	border-radius: 36px;
+	color: #ECE1D0;
+	position: relative;
+	top: 36px;
+}
+
+
+/*
+
+--------------------------------------------------------------------------
+	Ding Ding Styling
+--------------------------------------------------------------------------
+		
+																		*/
+																		
+#ding-ding blockquote {
+	
+	font-family:"league-gothic-1","league-gothic-2",sans-serif;
+	font-size:150px;
+	line-height:150px;
+	padding-bottom:24px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#ding-ding {
+	padding: 168px 0;
+}
+
+
+#ding-ding cite {
+	text-align: center;
+	width: 740px;
+	display: block;
+	font-size: 28px;
+	border-top:1px solid;
+	line-height: 36px;
+	padding-top: 12px;
+}
+
+.three-d {
+	text-shadow: 1px 1px #191815, 2px 2px #191815, 3px 3px #191815, 4px 4px #191815, 5px 5px #191815, 6px 6px #191815, 7px 7px #191815, 8px 8px #191815;
+
+}
+
+
+/*
+
+--------------------------------------------------------------------------
+	Round Styling
+--------------------------------------------------------------------------
+		
+																		*/
+section.round {
+	padding: 120px 0;}
+
+div.round-container{
+	position: fixed;
+	bottom:0px;
+	margin-left:-200px;
+	width:120px;
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 96px;
+	overflow: hidden;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+}
+
+div.round-container h1{
+	background-color: rgba(255, 40, 0, 0.8);
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 28px;
+}
+
+div.round-container h1 strong{
+	font-size:96px;
+	font-weight:normal;
+	left:45px;
+	position:absolute;
+	top:77px;
+	color: rgba(0,0,0, 0.7);
+}
+
+.round h2 {
+	font-size:36px;
+	letter-spacing:4px;
+	line-height:48px;
+	margin-bottom:24px;
+	text-transform:uppercase;
+}
+
+.info-wrapper {
+	width:540px;
+	margin-left: 200px;
+}
+
+.info-wrapper p {
+	margin-bottom: 24px;
+}
+
+
+
+/*
+
+--------------------------------------------------------------------------
+	KO
+--------------------------------------------------------------------------
+		
+																		*/
+#KO {
+	padding:168px 0;
+}
+
+#KO h1 {
+	text-align: center;
+	font-size: 150px; 
+	line-height: 150px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #191815, 2px 2px #191815, 3px 3px #191815, 4px 4px #191815, 5px 5px #191815, 6px 6px #191815, 7px 7px #191815, 8px 8px #191815;}
+	
