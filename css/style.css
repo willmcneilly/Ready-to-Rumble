@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-family: "league-gothic",sans-serif;
 	font-weight: normal;
 }
 
@@ -85,7 +85,7 @@ header#global-header {
 }
 																	
 p.tagline {
-	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-family: "league-gothic", sans-serif;
 	font-size: 32px;
 	line-height: 36px;
 	text-transform: uppercase;
@@ -151,7 +151,7 @@ span.boxer2 {
 	margin-right: 72px;}
 
 span.boxer1, span.boxer2 {
-	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	font-family: "league-gothic" ,sans-serif;
 	font-size: 74px;
 	text-transform: uppercase;
 	line-height: 56px;
@@ -202,7 +202,7 @@ em.vs {
 																		
 #ding-ding blockquote {
 	
-	font-family:"league-gothic-1","league-gothic-2",sans-serif;
+	font-family:"league-gothic" ,sans-serif;
 	font-size:150px;
 	line-height:150px;
 	padding-bottom:24px;
